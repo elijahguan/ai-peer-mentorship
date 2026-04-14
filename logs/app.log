@@ -92,3 +92,7 @@
 2026-04-13 17:54:40,140 -  * Debugger is active!
 2026-04-13 17:54:40,141 -  * Debugger PIN: 130-132-617
 2026-04-13 17:54:40,411 - 127.0.0.1 - - [13/Apr/2026 17:54:40] "GET / HTTP/1.1" 200 -
+2026-04-13 18:01:49,249 -  * Detected change in 'C:\\Users\\elija\\Documents\\GitHub\\ai-peer-mentorship\\app.py', reloading
+2026-04-13 18:01:49,291 -  * Restarting with stat
+2026-04-13 18:01:49,659 -  * Debugger is active!
+2026-04-13 18:01:49,660 -  * Debugger PIN: 130-132-617

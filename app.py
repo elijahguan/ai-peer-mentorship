@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify #flask create server, #request get incoming data, #jsonify return json response
-import json
+import json, os
 
 from matcher import find_best_match
 from logger import log_event
@@ -30,5 +30,6 @@ def match_student():
     })
 
 if __name__ == '__main__':
-    app.run(host="127.0.0.1", port=5000, debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=True)
 
