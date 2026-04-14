@@ -13,7 +13,9 @@ def load_data():
         mentors = json.load(f)
 
     return students, mentors
-
+@app.route("/")
+def home():
+    return "AI Mentor Matchmaker"
 @app.route('/match', methods=['POST'])
 def match_student():
     data = request.json
@@ -28,4 +30,5 @@ def match_student():
     })
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="127.0.0.1", port=5000, debug=True)
+

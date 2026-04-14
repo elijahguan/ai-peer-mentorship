@@ -4,3 +4,91 @@
 2026-04-13 14:38:48,038 -  * Restarting with stat
 2026-04-13 14:38:48,839 -  * Debugger is active!
 2026-04-13 14:38:48,844 -  * Debugger PIN: 762-408-554
+2026-04-13 14:51:21,815 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-13 14:51:21,816 - [33mPress CTRL+C to quit[0m
+2026-04-13 14:51:21,818 -  * Restarting with stat
+2026-04-13 14:51:22,163 -  * Debugger is active!
+2026-04-13 14:51:22,166 -  * Debugger PIN: 762-408-554
+2026-04-13 14:52:19,341 - 127.0.0.1 - - [13/Apr/2026 14:52:19] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-13 14:52:19,934 - 127.0.0.1 - - [13/Apr/2026 14:52:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-13 14:53:33,569 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-13 14:53:33,569 - [33mPress CTRL+C to quit[0m
+2026-04-13 14:53:33,571 -  * Restarting with stat
+2026-04-13 14:53:34,019 -  * Debugger is active!
+2026-04-13 14:53:34,021 -  * Debugger PIN: 762-408-554
+2026-04-13 14:53:40,117 - 127.0.0.1 - - [13/Apr/2026 14:53:40] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-13 14:53:48,585 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-13 14:53:48,585 - [33mPress CTRL+C to quit[0m
+2026-04-13 14:53:48,587 -  * Restarting with stat
+2026-04-13 14:53:48,877 -  * Debugger is active!
+2026-04-13 14:53:48,879 -  * Debugger PIN: 130-132-617
+2026-04-13 14:53:54,551 - 127.0.0.1 - - [13/Apr/2026 14:53:54] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-13 14:55:39,513 - 127.0.0.1 - - [13/Apr/2026 14:55:39] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-13 14:56:33,244 -  * Detected change in 'C:\\Users\\elija\\Documents\\GitHub\\ai-peer-mentorship\\app.py', reloading
+2026-04-13 14:56:33,303 -  * Restarting with stat
+2026-04-13 14:56:33,653 -  * Debugger is active!
+2026-04-13 14:56:33,656 -  * Debugger PIN: 130-132-617
+2026-04-13 14:56:33,701 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-13 14:56:33,701 - [33mPress CTRL+C to quit[0m
+2026-04-13 14:56:33,702 -  * Restarting with stat
+2026-04-13 14:56:34,248 -  * Debugger is active!
+2026-04-13 14:56:34,249 -  * Debugger PIN: 762-408-554
+2026-04-13 14:56:41,390 - 127.0.0.1 - - [13/Apr/2026 14:56:41] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-13 14:56:45,691 - 127.0.0.1 - - [13/Apr/2026 14:56:45] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-13 14:57:10,968 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-13 14:57:10,968 - [33mPress CTRL+C to quit[0m
+2026-04-13 14:57:10,969 -  * Restarting with stat
+2026-04-13 14:57:11,322 -  * Debugger is active!
+2026-04-13 14:57:11,324 -  * Debugger PIN: 762-408-554
+2026-04-13 14:57:16,693 - 127.0.0.1 - - [13/Apr/2026 14:57:16] "[33mGET / HTTP/1.1[0m" 404 -
+2026-04-13 14:58:37,714 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-13 14:58:37,714 - [33mPress CTRL+C to quit[0m
+2026-04-13 14:58:37,716 -  * Restarting with stat
+2026-04-13 14:58:37,766 -  * Detected change in 'C:\\Users\\elija\\Documents\\GitHub\\ai-peer-mentorship\\app.py', reloading
+2026-04-13 14:58:37,818 -  * Restarting with stat
+2026-04-13 14:58:38,151 -  * Debugger is active!
+2026-04-13 14:58:38,153 -  * Debugger PIN: 762-408-554
+2026-04-13 14:58:38,166 -  * Debugger is active!
+2026-04-13 14:58:38,168 -  * Debugger PIN: 130-132-617
+2026-04-13 14:59:10,424 -  * Detected change in 'C:\\Users\\elija\\Documents\\GitHub\\ai-peer-mentorship\\app.py', reloading
+2026-04-13 14:59:10,473 -  * Restarting with stat
+2026-04-13 14:59:10,755 -  * Debugger is active!
+2026-04-13 14:59:10,757 -  * Debugger PIN: 130-132-617
+2026-04-13 14:59:15,270 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-13 14:59:15,270 - [33mPress CTRL+C to quit[0m
+2026-04-13 14:59:15,271 -  * Restarting with stat
+2026-04-13 14:59:15,579 -  * Debugger is active!
+2026-04-13 14:59:15,580 -  * Debugger PIN: 762-408-554
+2026-04-13 14:59:20,083 - 127.0.0.1 - - [13/Apr/2026 14:59:20] "GET / HTTP/1.1" 200 -
+2026-04-13 15:01:30,988 - 127.0.0.1 - - [13/Apr/2026 15:01:30] "GET / HTTP/1.1" 200 -
+2026-04-13 15:01:31,999 - 127.0.0.1 - - [13/Apr/2026 15:01:31] "GET / HTTP/1.1" 200 -
+2026-04-13 15:01:32,608 - 127.0.0.1 - - [13/Apr/2026 15:01:32] "GET / HTTP/1.1" 200 -
+2026-04-13 15:01:32,793 - 127.0.0.1 - - [13/Apr/2026 15:01:32] "GET / HTTP/1.1" 200 -
+2026-04-13 15:01:32,951 - 127.0.0.1 - - [13/Apr/2026 15:01:32] "GET / HTTP/1.1" 200 -
+2026-04-13 15:01:43,087 - 127.0.0.1 - - [13/Apr/2026 15:01:43] "GET / HTTP/1.1" 200 -
+2026-04-13 15:01:43,114 -  * Detected change in 'C:\\Users\\elija\\Documents\\GitHub\\ai-peer-mentorship\\app.py', reloading
+2026-04-13 15:01:43,197 -  * Restarting with stat
+2026-04-13 15:01:43,591 -  * Debugger is active!
+2026-04-13 15:01:43,593 -  * Debugger PIN: 130-132-617
+2026-04-13 15:01:44,383 - 127.0.0.1 - - [13/Apr/2026 15:01:44] "GET / HTTP/1.1" 200 -
+2026-04-13 17:24:33,337 - 127.0.0.1 - - [13/Apr/2026 17:24:33] "GET / HTTP/1.1" 200 -
+2026-04-13 17:54:26,568 - 127.0.0.1 - - [13/Apr/2026 17:54:26] "GET / HTTP/1.1" 200 -
+2026-04-13 17:54:30,852 - 127.0.0.1 - - [13/Apr/2026 17:54:30] "GET / HTTP/1.1" 200 -
+2026-04-13 17:54:30,908 -  * Detected change in 'C:\\Users\\elija\\Documents\\GitHub\\ai-peer-mentorship\\app.py', reloading
+2026-04-13 17:54:31,046 -  * Restarting with stat
+2026-04-13 17:54:31,566 -  * Debugger is active!
+2026-04-13 17:54:31,569 -  * Debugger PIN: 130-132-617
+2026-04-13 17:54:31,920 - 127.0.0.1 - - [13/Apr/2026 17:54:31] "GET / HTTP/1.1" 200 -
+2026-04-13 17:54:38,979 - 127.0.0.1 - - [13/Apr/2026 17:54:38] "GET / HTTP/1.1" 200 -
+2026-04-13 17:54:39,685 -  * Detected change in 'C:\\Users\\elija\\Documents\\GitHub\\ai-peer-mentorship\\app.py', reloading
+2026-04-13 17:54:39,764 -  * Restarting with stat
+2026-04-13 17:54:40,140 -  * Debugger is active!
+2026-04-13 17:54:40,141 -  * Debugger PIN: 130-132-617
+2026-04-13 17:54:40,411 - 127.0.0.1 - - [13/Apr/2026 17:54:40] "GET / HTTP/1.1" 200 -
