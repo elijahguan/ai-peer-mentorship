@@ -15,19 +15,19 @@ def score_match(student, mentor):
     score = 0
 
     #interest match
-    if student["interest"] == mentor["interest"]:
+    if student.get("interest") == mentor.get("interest"):
         score += 3
 
     #major match
-    if student["major"] == mentor["major"]:
+    if student.get("major") == mentor.get("major"):
         score += 2
 
     #language match
-    if student["language"] == mentor["language"]:
+    if student.get("language") == mentor.get("language"):
         score += 2
 
     #year match
-    if abs(student["year"] - mentor["year"]) <= 1:
+    if abs(student.get("year", 0) - mentor.get("year", 0)) <= 1:
         score += 1
     print("SCORE between", student["name"], "and", mentor["name"], "=", score)
     return score
