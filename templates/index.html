@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mentor Match</title>
+    <style>
+        body {
+            font-family: "Comic Sans MS";
+            max-width: 600px;
+            margin: 50px auto;
+        }
+        input {
+            display: block;
+            margin: 10px 0;
+            padding: 8px;
+            width: 100%;
+        }
+        button {
+            padding: 10px;
+            background: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 10px;
+            background: #f0f0f0
+        }
+    </style>
+</head>
+<body>
+<h2>AI Mentor Matcher</h2>
+<input id="name" placeholder="Name">
+<input id="major" placeholder="Major">
+<input id="interest" placeholder="Interest">
+<input id="language" placeholder="Language">
+<input id="year" placeholder="Year">
+
+<button onclick="matchMentor()">Find Mentor</button>
+<div id="result"></div>
+
+<script>
+    async function matchMentor() {
+        const data = {student: {
+            name: document.getElementById("name").value,
+            major: document.getElementById("major").value,
+            interest: document.getElementById("interest").value,
+            language: document.getElementById("language").value,
+            year: parseInt(document.getElementById("year").value)
+            }
+        };
+        const response = await fetch("/match", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
+        });
+        const result = await response.json();
+
+        document.getElementById("result").innerHTML = `<b>Student:</b>${result.student}<br><b>Matched Mentor:</b> ${result.matched_mentor}`;
+    }
+</script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify #flask create server, #request get incoming data, #jsonify return json response
+from flask import Flask, request, jsonify, render_template #flask create server, #request get incoming data, #jsonify return json response
 import json, os
 
 from matcher import find_best_match
@@ -15,7 +15,7 @@ def load_data():
     return students, mentors
 @app.route("/")
 def home():
-    return "AI Mentor Matchmaker"
+    return render_template("index.html")
 @app.route('/match', methods=['POST'])
 def match_student():
     data = request.json
