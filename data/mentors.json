@@ -1,21 +1,37 @@
 [
-  {
-    "name": "Elijah",
-    "major": "Cybersecurity",
-    "interest": "Music",
-    "year": 1,
-    "language": "zh"
-  },
-  {
-    "name": "Hannah",
-    "major": "Law",
-    "interest": "Eating",
-    "year": 1,
-    "language": "vn"
-  },
-  {
-    "name": "Lily",
-    "major": "Pre-med",
-    "interest": ""
-  }
+    {
+        "name": "Elijah",
+        "major": "Cybersecurity",
+        "interest": "Music",
+        "year": 1,
+        "language": "zh"
+    },
+    {
+        "name": "Hannah",
+        "major": "Law",
+        "interest": "Eating",
+        "year": 1,
+        "language": "vn"
+    },
+    {
+        "name": "Test",
+        "interest": "Test",
+        "major": "Test",
+        "language": "Test",
+        "year": 1
+    },
+    {
+        "name": "Test1",
+        "interest": "Test1",
+        "major": "Test1",
+        "language": "Test1",
+        "year": 1
+    },
+    {
+        "name": "Test2",
+        "interest": "Test2",
+        "major": "Test2",
+        "language": "Test2",
+        "year": 1
+    }
 ]

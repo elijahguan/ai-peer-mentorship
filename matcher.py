@@ -29,5 +29,5 @@ def score_match(student, mentor):
     #year match
     if abs(student["year"] - mentor["year"]) <= 1:
         score += 1
-
+    print("SCORE between", student["name"], "and", mentor["name"], "=", score)
     return score

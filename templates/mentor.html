@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mentor Portal</title>
+</head>
+<body>
+    <h2>Become a Mentor</h2>
+
+    <form id="mentorForm">
+        <input name="name" placeholder="Name"><br><br>
+        <input name="interest" placeholder="Interest"><br><br>
+        <input name="major" placeholder="Major"><br><br>
+        <input name="language" placeholder="Language"><br><br>
+        <input name="year" placeholder="Year"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        document.getElementById("mentorForm").onsubmit = async (e) => {
+            e.preventDefault()
+
+            const formData = new FormData(e.target);
+            const data = Object.fromEntries(formData);
+
+            data.year = parseInt(data.year);
+
+            await fetch("http://127.0.0.1:5000/add_mentor", {
+               method: "POST",
+               headers: {"Content-Type": "application/json"},
+               body: JSON.stringify(data)
+            });
+            alert("Mentor Added!");
+        };
+    </script>
+</body>
+</html>

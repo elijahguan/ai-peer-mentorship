@@ -1,10 +1,12 @@
 from flask import Flask, request, jsonify, render_template #flask create server, #request get incoming data, #jsonify return json response
 import json, os
+from flask_cors import CORS
 
 from matcher import find_best_match
 from logger import log_event
 
 app = Flask(__name__) #create web server inst
+CORS(app)
 
 def load_data():
     with open("data/students.json", "r") as f:
@@ -24,10 +26,18 @@ def match_student():
     students, mentors = load_data()
     match = find_best_match(student, mentors)
     log_event(str(student['name']) + " matched with " + str(match['name']))
+    print("STUDENTS:", students)
+    print("MENTORS:", mentors)
+    print("Incoming student:", student)
     return jsonify({
         'student': student['name'],
-        'matched_mentor': match['name']
+        'matched_mentor': match['name'],
+        'debug': {
+            'student': student,
+            'mentor': match
+        }
     })
+
 @app.route('/add_mentor', methods=['POST'])
 def add_mentor():
     data = request.json
@@ -40,7 +50,7 @@ def add_mentor():
     with open("data/mentors.json", "w") as f:
         json.dump(mentors, f, indent=4)
 
-    log_event("New Mentor Added" + str(data['name']))
+    log_event("New Mentor Added: " + str(data['name']))
     return jsonify({"status": "mentor added"})
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))

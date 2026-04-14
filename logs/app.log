@@ -96,3 +96,120 @@
 2026-04-13 18:01:49,291 -  * Restarting with stat
 2026-04-13 18:01:49,659 -  * Debugger is active!
 2026-04-13 18:01:49,660 -  * Debugger PIN: 130-132-617
+2026-04-14 09:41:41,295 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.214.180:5000
+2026-04-14 09:41:41,296 - [33mPress CTRL+C to quit[0m
+2026-04-14 09:41:41,300 -  * Restarting with stat
+2026-04-14 09:41:42,446 -  * Debugger is active!
+2026-04-14 09:41:42,451 -  * Debugger PIN: 762-408-554
+2026-04-14 09:42:11,703 - 127.0.0.1 - - [14/Apr/2026 09:42:11] "OPTIONS /add_mentor HTTP/1.1" 200 -
+2026-04-14 09:42:16,701 - 127.0.0.1 - - [14/Apr/2026 09:42:16] "OPTIONS /add_mentor HTTP/1.1" 200 -
+2026-04-14 11:14:41,788 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.214.180:5000
+2026-04-14 11:14:41,788 - [33mPress CTRL+C to quit[0m
+2026-04-14 11:14:41,792 -  * Restarting with stat
+2026-04-14 11:14:42,523 -  * Debugger is active!
+2026-04-14 11:14:42,526 -  * Debugger PIN: 762-408-554
+2026-04-14 11:15:08,577 - 127.0.0.1 - - [14/Apr/2026 11:15:08] "OPTIONS /add_mentor HTTP/1.1" 200 -
+2026-04-14 11:15:08,598 - New Mentor AddedTest
+2026-04-14 11:15:08,599 - 127.0.0.1 - - [14/Apr/2026 11:15:08] "POST /add_mentor HTTP/1.1" 200 -
+2026-04-14 11:18:44,335 -  * Detected change in 'C:\\Users\\elija\\Documents\\GitHub\\ai-peer-mentorship\\app.py', reloading
+2026-04-14 11:18:44,525 -  * Restarting with stat
+2026-04-14 11:18:45,601 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.214.180:5000
+2026-04-14 11:18:45,602 - [33mPress CTRL+C to quit[0m
+2026-04-14 11:18:45,605 -  * Restarting with stat
+2026-04-14 11:18:45,837 -  * Debugger is active!
+2026-04-14 11:18:45,840 -  * Debugger PIN: 762-408-554
+2026-04-14 11:18:46,493 -  * Debugger is active!
+2026-04-14 11:18:46,498 -  * Debugger PIN: 762-408-554
+2026-04-14 11:19:00,237 - 127.0.0.1 - - [14/Apr/2026 11:19:00] "OPTIONS /add_mentor HTTP/1.1" 200 -
+2026-04-14 11:19:00,250 - New Mentor Added: Test1
+2026-04-14 11:19:00,251 - 127.0.0.1 - - [14/Apr/2026 11:19:00] "POST /add_mentor HTTP/1.1" 200 -
+2026-04-14 11:29:00,621 -  * Detected change in 'C:\\Users\\elija\\Documents\\GitHub\\ai-peer-mentorship\\app.py', reloading
+2026-04-14 11:29:00,869 -  * Restarting with stat
+2026-04-14 11:29:00,881 -  * Detected change in 'C:\\Users\\elija\\Documents\\GitHub\\ai-peer-mentorship\\app.py', reloading
+2026-04-14 11:29:01,082 -  * Restarting with stat
+2026-04-14 11:29:02,268 -  * Debugger is active!
+2026-04-14 11:29:02,274 -  * Debugger PIN: 762-408-554
+2026-04-14 11:29:02,466 -  * Debugger is active!
+2026-04-14 11:29:02,473 -  * Debugger PIN: 762-408-554
+2026-04-14 11:30:14,114 -  * Detected change in 'C:\\Users\\elija\\Documents\\GitHub\\ai-peer-mentorship\\app.py', reloading
+2026-04-14 11:30:14,281 -  * Restarting with stat
+2026-04-14 11:30:14,463 -  * Detected change in 'C:\\Users\\elija\\Documents\\GitHub\\ai-peer-mentorship\\app.py', reloading
+2026-04-14 11:30:14,811 -  * Restarting with stat
+2026-04-14 11:30:16,358 -  * Debugger is active!
+2026-04-14 11:30:16,363 -  * Debugger PIN: 762-408-554
+2026-04-14 11:30:16,723 -  * Debugger is active!
+2026-04-14 11:30:16,728 -  * Debugger PIN: 762-408-554
+2026-04-14 11:31:01,709 - 127.0.0.1 - - [14/Apr/2026 11:31:01] "OPTIONS /add_mentor HTTP/1.1" 200 -
+2026-04-14 11:31:01,724 - New Mentor Added: Test
+2026-04-14 11:31:01,725 - 127.0.0.1 - - [14/Apr/2026 11:31:01] "POST /add_mentor HTTP/1.1" 200 -
+2026-04-14 11:31:15,447 - 127.0.0.1 - - [14/Apr/2026 11:31:15] "OPTIONS /match HTTP/1.1" 200 -
+2026-04-14 11:31:15,563 - 127.0.0.1 - - [14/Apr/2026 11:31:15] "[35m[1mPOST /match HTTP/1.1[0m" 500 -
+2026-04-14 11:31:26,397 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.214.180:5000
+2026-04-14 11:31:26,397 - [33mPress CTRL+C to quit[0m
+2026-04-14 11:31:26,400 -  * Restarting with stat
+2026-04-14 11:31:27,089 -  * Debugger is active!
+2026-04-14 11:31:27,092 -  * Debugger PIN: 762-408-554
+2026-04-14 11:31:28,326 - 127.0.0.1 - - [14/Apr/2026 11:31:28] "OPTIONS /match HTTP/1.1" 200 -
+2026-04-14 11:31:28,381 - 127.0.0.1 - - [14/Apr/2026 11:31:28] "[35m[1mPOST /match HTTP/1.1[0m" 500 -
+2026-04-14 11:31:29,607 - 127.0.0.1 - - [14/Apr/2026 11:31:29] "[35m[1mPOST /match HTTP/1.1[0m" 500 -
+2026-04-14 11:31:37,948 - 127.0.0.1 - - [14/Apr/2026 11:31:37] "OPTIONS /match HTTP/1.1" 200 -
+2026-04-14 11:31:37,971 - 127.0.0.1 - - [14/Apr/2026 11:31:37] "[35m[1mPOST /match HTTP/1.1[0m" 500 -
+2026-04-14 11:34:29,858 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.214.180:5000
+2026-04-14 11:34:29,858 - [33mPress CTRL+C to quit[0m
+2026-04-14 11:34:29,863 -  * Restarting with stat
+2026-04-14 11:34:30,721 -  * Debugger is active!
+2026-04-14 11:34:30,723 -  * Debugger PIN: 762-408-554
+2026-04-14 11:35:55,517 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.214.180:5000
+2026-04-14 11:35:55,518 - [33mPress CTRL+C to quit[0m
+2026-04-14 11:35:55,520 -  * Restarting with stat
+2026-04-14 11:35:56,111 -  * Debugger is active!
+2026-04-14 11:35:56,115 -  * Debugger PIN: 762-408-554
+2026-04-14 11:36:35,578 - 127.0.0.1 - - [14/Apr/2026 11:36:35] "OPTIONS /add_mentor HTTP/1.1" 200 -
+2026-04-14 11:36:35,595 - New Mentor Added: Test1
+2026-04-14 11:36:35,597 - 127.0.0.1 - - [14/Apr/2026 11:36:35] "POST /add_mentor HTTP/1.1" 200 -
+2026-04-14 11:36:51,421 - 127.0.0.1 - - [14/Apr/2026 11:36:51] "OPTIONS /match HTTP/1.1" 200 -
+2026-04-14 11:36:51,462 - 127.0.0.1 - - [14/Apr/2026 11:36:51] "[35m[1mPOST /match HTTP/1.1[0m" 500 -
+2026-04-14 11:37:35,613 - 127.0.0.1 - - [14/Apr/2026 11:37:35] "OPTIONS /match HTTP/1.1" 200 -
+2026-04-14 11:37:35,630 - Test3 matched with Test1
+2026-04-14 11:37:35,633 - 127.0.0.1 - - [14/Apr/2026 11:37:35] "POST /match HTTP/1.1" 200 -
+2026-04-14 11:39:55,183 -  * Detected change in 'C:\\Users\\elija\\Documents\\GitHub\\ai-peer-mentorship\\matcher.py', reloading
+2026-04-14 11:39:55,317 -  * Restarting with stat
+2026-04-14 11:39:56,276 -  * Debugger is active!
+2026-04-14 11:39:56,279 -  * Debugger PIN: 762-408-554
+2026-04-14 11:40:04,505 - 127.0.0.1 - - [14/Apr/2026 11:40:04] "OPTIONS /match HTTP/1.1" 200 -
+2026-04-14 11:40:04,523 - Test4 matched with Test1
+2026-04-14 11:40:04,527 - 127.0.0.1 - - [14/Apr/2026 11:40:04] "POST /match HTTP/1.1" 200 -
+2026-04-14 11:49:31,123 -  * Detected change in 'C:\\Users\\elija\\Documents\\GitHub\\ai-peer-mentorship\\app.py', reloading
+2026-04-14 11:49:31,283 -  * Restarting with stat
+2026-04-14 11:50:37,903 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.214.180:5000
+2026-04-14 11:50:37,904 - [33mPress CTRL+C to quit[0m
+2026-04-14 11:50:37,907 -  * Restarting with stat
+2026-04-14 11:50:38,731 -  * Debugger is active!
+2026-04-14 11:50:38,737 -  * Debugger PIN: 762-408-554
+2026-04-14 11:50:50,568 - 127.0.0.1 - - [14/Apr/2026 11:50:50] "OPTIONS /add_mentor HTTP/1.1" 200 -
+2026-04-14 11:50:50,583 - New Mentor Added: Test2
+2026-04-14 11:50:50,584 - 127.0.0.1 - - [14/Apr/2026 11:50:50] "POST /add_mentor HTTP/1.1" 200 -
+2026-04-14 11:51:11,007 - 127.0.0.1 - - [14/Apr/2026 11:51:11] "OPTIONS /match HTTP/1.1" 200 -
+2026-04-14 11:51:11,021 - Test5 matched with Test1
+2026-04-14 11:51:11,025 - 127.0.0.1 - - [14/Apr/2026 11:51:11] "POST /match HTTP/1.1" 200 -
