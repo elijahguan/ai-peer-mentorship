@@ -1,21 +1,16 @@
 [
   {
-    "name": "Elijah",
+    "name": "Amber",
     "major": "Cybersecurity",
     "interest": "Music",
     "year": 1,
     "language": "zh"
   },
   {
-    "name": "Hannah",
+    "name": "Vivian",
     "major": "Law",
     "interest": "Eating",
     "year": 1,
     "language": "vn"
-  },
-  {
-    "name": "Lily",
-    "major": "Pre-med",
-    "interest": ""
   }
 ]

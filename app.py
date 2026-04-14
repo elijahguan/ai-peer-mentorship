@@ -28,7 +28,20 @@ def match_student():
         'student': student['name'],
         'matched_mentor': match['name']
     })
+@app.route('/add_mentor', methods=['POST'])
+def add_mentor():
+    data = request.json
 
+    #load data
+    students, mentors, = load_data()
+    #new mentor
+    mentors.append(data)
+    #save back to file
+    with open("data/mentors.json", "w") as f:
+        json.dump(mentors, f, indent=4)
+
+    log_event("New Mentor Added" + str(data['name']))
+    return jsonify({"status": "mentor added"})
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port, debug=True)
