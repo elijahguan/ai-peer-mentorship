@@ -2,14 +2,14 @@
   {
     "name": "Elijah",
     "major": "Cybersecurity",
-    "interests": "Music",
+    "interest": "Music",
     "year": "1",
     "language": "zh"
   },
   {
     "name": "Hannah",
     "major": "Law",
-    "interests": "Eating",
+    "interest": "Eating",
     "year": "1",
     "language": "vn"
   }
