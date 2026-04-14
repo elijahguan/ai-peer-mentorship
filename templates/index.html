@@ -49,7 +49,7 @@
             year: parseInt(document.getElementById("year").value)
             }
         };
-        const response = await fetch("http://127.0.0.1:5000/match", {
+        const response = await fetch("/match", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

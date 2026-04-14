@@ -16,11 +16,11 @@ def load_data():
 
     return students, mentors
 @app.route("/")
-def home():
+def index():
     return render_template("index.html")
 
 @app.route("/mentor")
-def home():
+def mentor():
     return render_template("mentor.html")
 @app.route('/match', methods=['POST'])
 def match_student():
