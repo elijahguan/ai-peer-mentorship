@@ -5,5 +5,19 @@
         "interest": "Music",
         "year": 1,
         "language": "zh"
+    },
+    {
+        "name": "Test1",
+        "interest": "Test1",
+        "major": "Test1",
+        "language": "Test1",
+        "year": 1
+    },
+    {
+        "name": "Test2",
+        "interest": "Test2",
+        "major": "Test2",
+        "language": "Test2",
+        "year": 1
     }
 ]

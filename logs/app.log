@@ -221,3 +221,43 @@
 2026-04-14 11:55:22,520 -  * Restarting with stat
 2026-04-14 11:55:23,325 -  * Debugger is active!
 2026-04-14 11:55:23,329 -  * Debugger PIN: 762-408-554
+2026-04-16 11:05:43,180 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.214.180:5000
+2026-04-16 11:05:43,181 - [33mPress CTRL+C to quit[0m
+2026-04-16 11:06:14,036 - 127.0.0.1 - - [16/Apr/2026 11:06:14] "OPTIONS /match HTTP/1.1" 200 -
+2026-04-16 11:06:14,064 - Aline matched with Elijah
+2026-04-16 11:06:14,069 - 127.0.0.1 - - [16/Apr/2026 11:06:14] "POST /match HTTP/1.1" 200 -
+2026-04-16 11:07:06,123 - 127.0.0.1 - - [16/Apr/2026 11:07:06] "OPTIONS /add_mentor HTTP/1.1" 200 -
+2026-04-16 11:07:06,144 - New Mentor Added: Test1
+2026-04-16 11:07:06,146 - 127.0.0.1 - - [16/Apr/2026 11:07:06] "POST /add_mentor HTTP/1.1" 200 -
+2026-04-16 11:20:53,375 - 127.0.0.1 - - [16/Apr/2026 11:20:53] "OPTIONS /match HTTP/1.1" 200 -
+2026-04-16 11:20:53,402 - Aline matched with Elijah
+2026-04-16 11:20:53,409 - 127.0.0.1 - - [16/Apr/2026 11:20:53] "POST /match HTTP/1.1" 200 -
+2026-04-16 11:24:18,879 - 127.0.0.1 - - [16/Apr/2026 11:24:18] "OPTIONS /match HTTP/1.1" 200 -
+2026-04-16 11:24:18,909 - Nicholas matched with Elijah
+2026-04-16 11:24:18,913 - 127.0.0.1 - - [16/Apr/2026 11:24:18] "POST /match HTTP/1.1" 200 -
+2026-04-16 11:24:50,678 - 127.0.0.1 - - [16/Apr/2026 11:24:50] "OPTIONS /add_mentor HTTP/1.1" 200 -
+2026-04-16 11:24:50,718 - New Mentor Added: Test1
+2026-04-16 11:24:50,720 - 127.0.0.1 - - [16/Apr/2026 11:24:50] "POST /add_mentor HTTP/1.1" 200 -
+2026-04-16 11:25:16,332 - 127.0.0.1 - - [16/Apr/2026 11:25:16] "OPTIONS /match HTTP/1.1" 200 -
+2026-04-16 11:25:16,364 - Saraa matched with Test1
+2026-04-16 11:25:16,371 - 127.0.0.1 - - [16/Apr/2026 11:25:16] "POST /match HTTP/1.1" 200 -
+2026-04-16 11:28:52,322 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.30.214.180:5000
+2026-04-16 11:28:52,323 - [33mPress CTRL+C to quit[0m
+2026-04-16 11:30:44,233 - 127.0.0.1 - - [16/Apr/2026 11:30:44] "OPTIONS /match HTTP/1.1" 200 -
+2026-04-16 11:30:44,256 - Saraa matched with Test1
+2026-04-16 11:30:44,260 - 127.0.0.1 - - [16/Apr/2026 11:30:44] "POST /match HTTP/1.1" 200 -
+2026-04-16 11:30:59,891 - 127.0.0.1 - - [16/Apr/2026 11:30:59] "OPTIONS /match HTTP/1.1" 200 -
+2026-04-16 11:30:59,911 - Aline matched with Elijah
+2026-04-16 11:30:59,915 - 127.0.0.1 - - [16/Apr/2026 11:30:59] "POST /match HTTP/1.1" 200 -
+2026-04-16 11:31:07,780 - 127.0.0.1 - - [16/Apr/2026 11:31:07] "OPTIONS /add_mentor HTTP/1.1" 200 -
+2026-04-16 11:31:07,803 - New Mentor Added: Test2
+2026-04-16 11:31:07,805 - 127.0.0.1 - - [16/Apr/2026 11:31:07] "POST /add_mentor HTTP/1.1" 200 -
+2026-04-16 11:31:14,718 - 127.0.0.1 - - [16/Apr/2026 11:31:14] "OPTIONS /match HTTP/1.1" 200 -
+2026-04-16 11:31:14,741 - Aline matched with Test2
+2026-04-16 11:31:14,745 - 127.0.0.1 - - [16/Apr/2026 11:31:14] "POST /match HTTP/1.1" 200 -

@@ -16,6 +16,7 @@
     </form>
 
     <script>
+        const API_BASE = "https://ai-peer-mentorship.onrender.com";
         document.getElementById("mentorForm").onsubmit = async (e) => {
             e.preventDefault()
 
@@ -24,7 +25,7 @@
 
             data.year = parseInt(data.year);
 
-            await fetch("http://127.0.0.1:5000/add_mentor", {
+            await fetch(`${API_BASE}/add_mentor`, {
                method: "POST",
                headers: {"Content-Type": "application/json"},
                body: JSON.stringify(data)
